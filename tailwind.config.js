@@ -9,7 +9,11 @@ module.exports = {
         md: '1.5rem',
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        fontech: '#f9df25',
+      },
+    },
   },
   plugins: [],
 }
