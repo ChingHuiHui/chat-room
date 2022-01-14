@@ -1,17 +1,26 @@
 <template>
-  <main class="flex flex-col justify-center">
-    <div class="container flex flex-col items-center">
-      <HelloWorld msg="Hello It's the vue-project-base" />
+  <main class="flex">
+    <div class="container border-x flex flex-col">
+      <section class="flex-1 bg-gray-700">chat contents</section>
+
+      <section class="bg-gray-500 w-full p-5">
+        <form action="" class="flex space-x-4">
+          <input type="text" />
+          <input type="text" />
+        </form>
+      </section>
     </div>
   </main>
 </template>
 
-<script setup>
-  import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <style scoped>
   main {
     @apply w-full h-full;
+  }
+
+  input {
+    @apply border px-2 py-4;
   }
 </style>
